@@ -1,8 +1,10 @@
-body{
+/* Centraliza o conteúdo na tela */
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  /* Define a cor de fundo como branco */
   background-color: #ffffff;
 }

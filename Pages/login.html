@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Define o conjunto de caracteres como UTF-8 -->
     <meta charset="UTF-8">
+    <!-- Configura o site para ser responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importa o arquivo CSS para estilização -->
     <link rel="stylesheet" href="/style/login.css">
+    <!-- Importa o arquivo JavaScript para funcionalidade -->
     <script defer src="/Js/login.js"></script>
+    <!-- Define o título da página -->
     <title>Login</title>
 </head>
 <body>
+    <!-- Container principal do formulário de login -->
     <div class="login-container">
+        <!-- Título do formulário -->
         <h1>Login</h1>
+        <!-- Campo para o usuário inserir o nome -->
         <div>
             <label for="usuario">Usuário</label>
             <input type="text" id="usuario" placeholder="Digite seu usuário">
         </div>
+        <!-- Campo para o usuário inserir a senha -->
         <div>
             <label for="senha">Senha</label>
             <input type="password" id="senha" placeholder="Digite sua senha ">
         </div>
+        <!-- Link para a página de recuperação de senha -->
         <a href="esqueci.html">Esqueci minha senha</a>
+        <!-- Botão para enviar os dados de login -->
         <button style="color: blue;" onclick="login()">Entrar</button>
     </div>
 </body>

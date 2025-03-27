@@ -1,15 +1,16 @@
+/* Centraliza o conteúdo na tela */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    /* Gradiente que remete à terra e vegetação */
+    /* Gradiente de fundo */
     background: linear-gradient(135deg, #a8e063, #56ab2f);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Container do formulário de login */
+/* Estiliza o container do formulário de login */
 .login-container {
     background-color: #fdfdfd;
     padding: 30px 40px;
@@ -20,13 +21,13 @@ body {
     width: 320px;
 }
 
-/* Estilo para título */
+/* Estiliza o título */
 .login-container h1 {
     margin-bottom: 20px;
     color: #3e8e41;
 }
 
-/* Estilos para os campos de input e seus labels */
+/* Estiliza os labels */
 .login-container label {
     display: block;
     text-align: left;
@@ -35,6 +36,7 @@ body {
     margin-bottom: 5px;
 }
 
+/* Estiliza os campos de input */
 .login-container input {
     width: 100%;
     padding: 10px;
@@ -44,7 +46,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Estilo para o link de "Esqueci minha senha" */
+/* Estiliza o link de recuperação de senha */
 .login-container a {
     display: block;
     margin-bottom: 15px;
@@ -53,11 +55,12 @@ body {
     font-size: 0.9em;
 }
 
+/* Efeito de hover no link */
 .login-container a:hover {
     text-decoration: underline;
 }
 
-/* Estilo para o botão */
+/* Estiliza o botão */
 .login-container button {
     width: 100%;
     padding: 10px;
@@ -70,6 +73,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
+/* Efeito de hover no botão */
 .login-container button:hover {
     background-color: #57a05a;
 }

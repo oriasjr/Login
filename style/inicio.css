@@ -1,34 +1,40 @@
+/* Centraliza o conteúdo na tela */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  /* Define a cor de fundo como branco */
   background-color: #ffffff;
 }
 
+/* Estiliza o container principal */
 .change-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza na horizontal */
-  justify-content: center; /* Centraliza na vertical */
-  gap: 20px; /* Espaço entre o título e o botão */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 20px; /* Espaço entre os elementos */
 }
 
+/* Estiliza o texto do título */
 .change-container-text h1 {
   margin: 0;
   color: #3e8e41;
   text-align: center;
 }
 
+/* Centraliza o botão */
 .change-container-button {
   display: flex;
   justify-content: center;
-  width: 100%; /* Garante que o botão esteja centralizado */
+  width: 100%; /* Garante centralização */
 }
 
+/* Estiliza o botão */
 .change-container-button button {
-  background-color: #4CAF50; 
+  background-color: #4CAF50;
   font-size: 1em;
   color: white;
   padding: 10px 20px;
@@ -39,6 +45,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
+/* Efeito de hover no botão */
 .change-container-button button:hover {
   background-color: #3e8e41;
 }
