@@ -1,0 +1,76 @@
+/* Estilização geral da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Gradiente que remete à terra e vegetação */
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container do formulário de login */
+.login-container {
+    background-color: #fdfdfd;
+    padding: 30px 40px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Estilo para título */
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #3e8e41;
+}
+
+/* Estilos para os campos de input e seus labels */
+.login-container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o link de "Esqueci minha senha" */
+.login-container a {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #388e3c;
+    font-size: 0.9em;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o botão */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #66bb6a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #57a05a;
+}
