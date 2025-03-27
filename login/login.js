@@ -6,7 +6,7 @@ function login() {
     const senha = document.getElementById("senha").value;
 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
-        window.location.href = "/sucesso/inicial.html";
+        window.location.href = "../sucesso/sucesso.html";
     } else {
         alert("Usuário ou senha incorretos!");
     }
