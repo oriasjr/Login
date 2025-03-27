@@ -6,3 +6,17 @@ body{
     margin: 0;
     background-color: #ffffff;
   }
+
+.change-container button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.change-container h1{
+  margin-bottom: 20px;
+  color: #3e8e41;
+}
