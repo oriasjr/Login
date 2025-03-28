@@ -8,3 +8,10 @@ body {
   /* Define a cor de fundo como branco */
   background-color: #ffffff;
 }
+.h1-container {
+  text-align: center;
+  /* Define a cor do texto como verde */
+  color: #4CAF50;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
